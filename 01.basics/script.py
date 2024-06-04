@@ -51,3 +51,27 @@ movie = "Nagraaj\n7Go"
 
 movie_two = r"Nagraaj\n7Go"   
 # print(movie_two)     // r means row, this method give the row string
+
+
+# ======= LIST ========
+
+my_list = ["Ganesh","Ram", "Krishna", "Shiv", "Mahadev", "Hanuman"]
+
+# print(my_list[1:2])
+# my_list[2:3] = "Radha" // Replace character but give the different result   - This is slice method
+# my_list[2:3] = ["Radha"]   // Replace single char
+# my_list[2:4] = ["Radha", "Sita"]   // Replace single char
+# my_list[-1] = "Kamal"
+
+# == loop functions
+# for item in my_list:print(item)
+
+# for item in my_list:print(item, end=" - ")
+
+# == Conditions 
+
+# if "HariOm" in my_list: print(my_list)
+
+# my_list.append("HariOm")
+
+# if "HariOm" in my_list: print(my_list)
