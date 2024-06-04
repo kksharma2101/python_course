@@ -44,5 +44,10 @@ movies_list = ["Nagraaj", "Bahubali", "3-adiots", "artical-370"]
 # ======******=======
 
 quotes = "He said, \"Artical-370 is awesome\" "
-
 # print(quotes)
+
+movie = "Nagraaj\n7Go"
+# print(movie)
+
+movie_two = r"Nagraaj\n7Go"   
+# print(movie_two)     // r means row, this method give the row string
