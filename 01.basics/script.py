@@ -105,3 +105,5 @@ my_data["city"] = "noida"
 
 # for data in my_data: print(data)
 # for data in my_data: print(data,my_data[data])
+
+# for key, value in my_data.items(): print(key, value)
