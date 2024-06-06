@@ -56,17 +56,31 @@ movie_two = r"Nagraaj\n7Go"
 # ======= LIST ========
 
 my_list = ["Ganesh","Ram", "Krishna", "Shiv", "Mahadev", "Hanuman"]
+# my_list_copy = my_list.copy()
+# my_list_copy.append("hello")
+# print(my_list)
+# print(my_list_copy)
 
 # print(my_list[1:2])
 # my_list[2:3] = "Radha" // Replace character but give the different result   - This is slice method
 # my_list[2:3] = ["Radha"]   // Replace single char
 # my_list[2:4] = ["Radha", "Sita"]   // Replace single char
 # my_list[-1] = "Kamal"
+# my_list.pop()  // Remove last element
+# my_list.remove("element_name")   // Remove element by the name
+# my_list.insert(position, "element_name")  // Add element espesfic position
+
+# my_list_copy = my_list.copy()  // This copy method is give the another method
+
 
 # == loop functions
 # for item in my_list:print(item)
 
 # for item in my_list:print(item, end=" - ")
+
+# Comprihension loop in
+my_squared = [x ** 2 for x in range(10)];
+# print(my_squared)
 
 # == Conditions 
 
@@ -75,3 +89,19 @@ my_list = ["Ganesh","Ram", "Krishna", "Shiv", "Mahadev", "Hanuman"]
 # my_list.append("HariOm")
 
 # if "HariOm" in my_list: print(my_list)
+
+
+
+# ======= DICTIONARY ========
+
+my_data = {"firstName": "kamal", "lastName": "sharma", "age": "24", "city": "bsr", "state": "UP"}
+my_data["city"] = "noida"
+# my_data.get("firstName")
+
+# print(my_data["city"])
+# print(my_data)
+
+# === loop
+
+# for data in my_data: print(data)
+# for data in my_data: print(data,my_data[data])
