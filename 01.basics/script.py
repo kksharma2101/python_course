@@ -136,4 +136,25 @@ default_value = "kamal sharma"
 
 new_dict = dict.fromkeys(keys, default_value)
 
-print(new_dict)
+# print(new_dict)
+
+
+# ===== Tupal ======= > # this is immutable
+
+num = (21,42,59,30,40)
+tea_type = ("herbal", "Oolong", "herbal", "green")
+
+merge = num + tea_type
+counting = tea_type.count("herbal")
+# print(counting)
+# print(merge)
+
+
+# Quetions on conditionals
+
+userscore = input("Give me a value: ")
+
+# get_val = userscore / 2
+get_value = int(userscore)  # convert value string to number
+# print(get_value/2)
+# print(userscore)
