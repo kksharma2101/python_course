@@ -152,9 +152,77 @@ counting = tea_type.count("herbal")
 
 # Quetions on conditionals
 
-userscore = input("Give me a value: ")
+# userscore = input("Give me a value: ")
 
 # get_val = userscore / 2
-get_value = int(userscore)  # convert value string to number
+# get_value = int(userscore)  # convert value string to number
 # print(get_value/2)
-# print(userscore)
+# print(userscore)ss
+
+# Age group categorization
+#    Classify a person's age group: Child (< 13), Teenager (13-19), Adult (20-59), Senior (60+).
+
+# defineAge = input("Write your age : ")
+
+# age = int(defineAge)
+
+# if age <= 13:
+#     print("child")
+# elif age <= 20:
+#      print("teenager")
+# elif age <= 59:
+#     print("adult")
+# else: print("senior")
+
+# Movie Ticket Pricing
+#    Problem: Movie tickets are priced based on age: $12 for adults (18 and over), $8 for children. Everyone gets a $2 discount on Wednesday.
+
+# price = 12 if age >= 18 else 8
+
+# day = "wednesday"
+
+# if day == "wednesday":
+#     price -= 2
+# print("Ticket price for you $", price)
+
+
+# Grade Calculator
+#    Problem: Assign a letter grade based on a student's score: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60).
+
+# defineScore = input("Write your score : ")
+
+# score = int(defineScore)
+
+# if score >= 100:
+#     print("Your score must be less then and equal 100")
+#     exit()
+# elif score >= 90:
+#     grade = "A"
+# elif score >= 80:
+#     grade = "B"
+# elif score >= 70:
+#     grade = "C"
+# elif score >= 60:
+#     grade = "D"
+# else: grade = "F"
+
+# print(grade)
+
+
+# Fruit Ripeness Checker
+#    Problem: Determine if a fruit is ripe, overripe, or unripe based on its color. (e.g., Banana: Green - Unripe, Yellow - Ripe, Brown - Overripe).
+
+# color = input("Give a color name : ")
+# fruit = "banana"
+
+# if fruit == "banana":
+#     if color == "green":
+#        print("unripe")
+#     elif color == "yellow":
+#        print("Ripe")
+#     elif color == "brown":
+#        print("Overripe")
+
+
+#  Weather Activity Suggestion
+#    Problem: Suggest an activity based on the weather (e.g., Sunny - Go for a walk, Rainy - Read a book, Snowy - Build a snowman).
