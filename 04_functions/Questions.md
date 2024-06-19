@@ -57,19 +57,40 @@
 7. Function with \*args
    Problem: Write a function that takes variable number of arguments and returns their sum.
 
-   Ans.
+   Ans. def sum_all(\*args):
+   return sum(args)
+
+   print(sum_all(4,2,3))  
+   print(sum_all(4,2,3,5,3))  
+   print(sum_all(4,2,3,5,3,65,7))
 
 8. Function with \*\*kwargs
    Problem: Create a function that accepts any number of keyword arguments and prints them in the format key: value.
 
-   Ans.
+   Ans. def print_kwarg(\*\*kwargs) :
+   for key, value in kwargs.items():
+   print(f"{key}: {value}")
+
+   print_kwarg(name = "kamal", value = "sharma")
+   print_kwarg(name = "pandit", power = "natural", enemy = "people")
 
 9. Generator Function with yield
    Problem: Write a generator function that yields even numbers up to a specified limit.
 
-   Ans.
+   Ans. def generate_even(num):
+   for i in range(2, num + 1, 2):
+   yield i
+
+   for num in generate_even(20):
+   print(num)
 
 10. Recursive Function
     Problem: Create a recursive function to calculate the factorial of a number.
 
-    Ans.
+    Ans. def calculate_factorial(num):
+    if num == 0:
+    return 1
+    else:
+    return num \* calculate_factorial(num - 1)
+
+    print(calculate_factorial(5))
